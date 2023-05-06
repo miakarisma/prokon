@@ -10,7 +10,7 @@
     <!-- swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/work.css">
 </head>
 <body>
     
@@ -20,29 +20,32 @@
         
         <nav class="navbar">
             <ul class="nav-list">
-                
-                <li class="nav-item"><a href="page/store.html"><img alt="" src="https://static.overlay-tech.com/assets/7a7cbf53-98ff-4420-819f-4a3d30d082f7.svg" />Store</a></li>
-                <li class="nav-item"><a href="page/project.html"><img alt="" src="https://static.overlay-tech.com/assets/8c2308f0-8860-45e1-974e-20ce2012ee5c.svg" />Projects</a></li>
-                <li class="nav-item"><a href="page/services.html"><img alt="" src="https://static.overlay-tech.com/assets/983ca7e7-ad35-4572-8cae-75b535818c10.svg" />Services</a></li>
                 <li class="nav-item nav-item-image">
-                <a href="index.html">
-                  <img
-                  alt="logo-madju"
-                  class="logo-madju"
-                  src="https://static.overlay-tech.com/assets/5e0c9ada-d7d1-4696-bd9a-34a8a1129f7e.png"
-                  />
-                  <!-- <div class="half-circle"> -->
-                    <img
-                    alt="logo-madju"
-                    class="half-circle"
-                    src="https://static.overlay-tech.com/assets/6518e249-ef29-408e-85e4-4aa517864d9d.svg"
-                    />
-                  <!-- </div> -->
-                </a>
+                    <a href="../index.html">
+                      <img
+                      alt="logo-madju"
+                      class="logo-madju"
+                      src="https://static.overlay-tech.com/assets/5e0c9ada-d7d1-4696-bd9a-34a8a1129f7e.png"
+                      />
+                      <!-- <div class="half-circle"> -->
+                        <img
+                        alt="logo-madju"
+                        class="half-circle"
+                        src="https://static.overlay-tech.com/assets/6518e249-ef29-408e-85e4-4aa517864d9d.svg"
+                        />
+                      <!-- </div> -->
+                    </a>
+                    </li>
+                <li class="nav-item"><a href="../page/store.html"><i class="fas fa-th"></i>Category</a></li>
+                <li class="nav-item"><a href="../page/project.html"><i class="fas fa-percent"></i>Sale</a></li>
+                <li class="nav-item">
+                    <form class="form-search" id="my-form">
+                        <input class="input-search" type="text" placeholder="Search...">
+                        <button class="btn-search" type="submit">Search</button>
+                    </form>
                 </li>
-                <li class="nav-item"><a href="page/about-us.html"><img alt="" src="https://static.overlay-tech.com/assets/f7a595d3-9b53-46d8-9f92-b2f21381fc0e.svg" />About Us</a></li>
-                <li class="nav-item"><a href="page/contact-us.html"><img alt="" class="vector" src="https://static.overlay-tech.com/assets/f03eb309-7334-4f10-845a-0976efcbe014.svg" />Contact Us</a></li>
-                <li class="nav-item"><a href="page/login.html"><img alt="" class="vector" src="https://static.overlay-tech.com/assets/e2b1e584-eb4f-406f-b97d-5c5155a264ba.svg" />Sign In</a></li>
+                <li class="nav-item"><a href="../page/contact-us.html"><i class="fas fa-shopping-cart"></i>Shopping Cart</a></li>
+                <li class="nav-item"><a href="../page/login.html"><img alt="" class="vector" src="https://static.overlay-tech.com/assets/e2b1e584-eb4f-406f-b97d-5c5155a264ba.svg" />Sign In</a></li>
               </ul>
         </nav>
 
@@ -56,43 +59,51 @@
     <!-- header -->
 
     <section class="home" id="home">
-        <button class="circle-button left-button" onclick="prevSlide()"><div id="arrow-left-btn" class="fas fa-arrow-left"></div></button>
-        <button class="circle-button right-button" onclick="nextSlide()"><div id="arrow-right-btn" class="fas fa-arrow-right"></div></button>
         <div class="swiper home-slider">
             <div class="swiper-wrapper">
 
-                <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(../images/home-slide1.jpg) no-repeat;">
                     <div class="content">
-                        <h3>we just make a perfect furniture for home</h3>
+                        <h3>Workshop</h3>
                         <span>with you since 1965</span>
+                        <br>
+                        <a href="#" class="btn">add to cart</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(../images/home-slide2.jpg) no-repeat;">
                     <div class="content">
-                        <h3>we just make a perfect furniture for home</h3>
+                        <h3>Workshop</h3>
                         <span>with you since 1966</span>
+                        <br>
+                        <a href="#" class="btn">add to cart</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(../images/home-slide3.jpg) no-repeat;">
                     <div class="content">
-                        <h3>we just make a perfect furniture for home</h3>
+                        <h3>Workshop</h3>
                         <span>with you since 1967</span>
+                        <br>
+                        <a href="#" class="btn">add to cart</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(../images/home-slide4.jpg) no-repeat;">
                     <div class="content">
-                        <h3>we just make a perfect furniture for home</h3>
+                        <h3>Workshop</h3>
                         <span>with you since 1968</span>
+                        <br>
+                        <a href="#" class="btn">add to cart</a>
                     </div>
                 </div>
 
-                <div class="swiper-slide slide" style="background: url(images/home-slide5.jpg) no-repeat;">
+                <div class="swiper-slide slide" style="background: url(../images/home-slide5.jpg) no-repeat;">
                     <div class="content">
-                        <h3>we just make a perfect furniture for home</h3>
+                        <h3>Workshop</h3>
                         <span>with you since 1969</span>
+                        <br>
+                        <a href="#" class="btn">add to cart</a>
                     </div>
                 </div>
 
@@ -103,7 +114,6 @@
 
     <!-- home -->
 
-    <!-- about us -->
 
     <section class="about" id="about">
         <h1 class="heading"> discover <span>our</span> story</h1>
@@ -136,103 +146,6 @@
 
     </section>
 
-
-    <!-- about us -->
-
-<!-- project -->
-
-<section class="project" id="project">
-
-    <h1 class="heading"> our <span> projects</span></h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="images/blog-1.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>budget friendly prices</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquid quos quibusdam suscipit tempora.</p>
-                <a href="#" class="btn"> read more</a>
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 5th july, 2022 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/blog-2.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>budget friendly prices</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquid quos quibusdam suscipit tempora.</p>
-                <a href="#" class="btn"> read more</a>
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 5th july, 2022 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/blog-3.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>budget friendly prices</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id aliquid quos quibusdam suscipit tempora.</p>
-                <a href="#" class="btn"> read more</a>
-                <div class="icons">
-                    <a href="#"> <i class="fas fa-calendar"></i> 5th july, 2022 </a>
-                    <a href="#"> <i class="fas fa-user"></i> by admin </a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- project -->
-
-    <!-- services -->
-
-    <section class="services" id="services">
-
-        <h1 class="heading">our <span> services</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="images/service-1.png" alt="">
-                <h3>product designing</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed impedit.</p>
-                <a href="#" class="btn"> read more</a>
-            </div>
-
-            <div class="box">
-                <img src="images/service-2.png" alt="">
-                <h3>product quality</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed impedit.</p>
-                <a href="#" class="btn"> read more</a>
-            </div>
-
-            <div class="box">
-                <img src="images/service-3.png" alt="">
-                <h3>24/7 support</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sed impedit.</p>
-                <a href="#" class="btn"> read more</a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <!-- services -->
-
     <!-- product -->
 
     <section class="product" id="product">
@@ -244,7 +157,7 @@
             <div class="box">
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
-                <img src="images/product-1.jpg" alt="">
+                <img src="../images/product-1.jpg" alt="">
                 <h3>modern furniture</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -260,7 +173,7 @@
             <div class="box">
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
-                <img src="images/product-2.jpg" alt="">
+                <img src="../images/product-2.jpg" alt="">
                 <h3>modern furniture</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -276,7 +189,7 @@
             <div class="box">
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
-                <img src="images/product-3.jpg" alt="">
+                <img src="../images/product-3.jpg" alt="">
                 <h3>modern furniture</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -292,7 +205,7 @@
             <div class="box">
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
-                <img src="images/product-4.jpg" alt="">
+                <img src="../images/product-4.jpg" alt="">
                 <h3>modern furniture</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -308,7 +221,7 @@
             <div class="box">
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
-                <img src="images/product-5.jpg" alt="">
+                <img src="../images/product-5.jpg" alt="">
                 <h3>modern furniture</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -324,7 +237,7 @@
             <div class="box">
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
-                <img src="images/product-6.jpg" alt="">
+                <img src="../images/product-6.jpg" alt="">
                 <h3>modern furniture</h3>
                 <div class="stars">
                     <i class="fas fa-star"></i>
@@ -462,6 +375,6 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <!-- custom js -->
-    <script src="js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

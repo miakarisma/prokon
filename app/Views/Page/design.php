@@ -10,7 +10,7 @@
     <!-- swiper -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <!-- custom css -->
-    <link rel="stylesheet" href="../css/store.css">
+    <link rel="stylesheet" href="../css/design.css">
 </head>
 <body>
     
@@ -125,8 +125,10 @@
                 <i class="fa fa-couch fa-6x"></i>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
               </div>   
-              <a href="store.html"><h3>All Categories > </h3>
-              </a>
+              
+                <a href="store.html"><h3>All Categories > </h3>
+                </a>
+              
               <div class="all-line"></div>           
             </div>
             <div class="category-column" id="category-image">
@@ -177,11 +179,81 @@
     
     <!-- room -->
 
-    <!-- product -->
+     <!-- room -->
+     <section class="room">
+        <div class="room-container">
+            <div class="column content-column">
+              <img src="https://blog.atome.id/wp-content/uploads/2022/03/9-rekomendasi-furniture-stores-atau-toko-furnitur-terbaik.jpg" class="content-column" id="left-column"/>
+              <div class="overlay">
+                <div class="text">
+                    <p>20% off all item</p>
+                    <h2>Dining Room</h2>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="column content-column">
+              <img src="https://blog.atome.id/wp-content/uploads/2022/03/9-rekomendasi-furniture-stores-atau-toko-furnitur-terbaik.jpg" class="content-column" id="left-column"/>
+              <div class="overlay">
+                <div class="text">
+                    <p>20% off all item</p>
+                    <h2>Dining Room</h2>
+                    <a href="#" class="btn">add to cart</a></div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <!-- room -->
+
+     <!-- room -->
+     <section class="room">
+        <div class="room-container">
+            <div class="column content-column">
+              <img src="https://blog.atome.id/wp-content/uploads/2022/03/9-rekomendasi-furniture-stores-atau-toko-furnitur-terbaik.jpg" class="content-column" id="left-column"/>
+              <div class="overlay">
+                <div class="text">
+                    <p>20% off all item</p>
+                    <h2>Dining Room</h2>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="column content-column">
+              <img src="https://blog.atome.id/wp-content/uploads/2022/03/9-rekomendasi-furniture-stores-atau-toko-furnitur-terbaik.jpg" class="content-column" id="left-column"/>
+              <div class="overlay">
+                <div class="text">
+                    <p>20% off all item</p>
+                    <h2>Dining Room</h2>
+                    <a href="#" class="btn">add to cart</a></div>
+              </div>
+            </div>
+          </div>
+    </section>
+    
+    <!-- room -->
+
+    <!-- latest design -->
 
     <section class="product" id="product">
 
-        <h1 class="heading" id="heading">our <span> products</span></h1>
+        <div class="latest-design-container">
+            <div class="left-text">
+                <h3>Latest Design</h3>
+                <div class="category-line"></div>
+            </div>
+
+            <div class="right">
+                <div class="dropdown">
+                  <button class="dropbtn">Dropdown</button>
+                  <div class="dropdown-content">
+                    <a href="#">Option 1</a>
+                    <a href="#">Option 2</a>
+                    <a href="#">Option 3</a>
+                  </div>
+                </div>
+              </div>
+          </div>
 
         <div class="box-container">
 
@@ -233,59 +305,11 @@
                 <a href="#" class="btn">add to cart</a>
             </div>
 
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="../images/product-4.jpg" alt="">
-                <h3>modern furniture</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <div class="price">$18.99 <span>$21.99</span></div>
-                <a href="#" class="btn">add to cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="../images/product-5.jpg" alt="">
-                <h3>modern furniture</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <div class="price">$18.99 <span>$21.99</span></div>
-                <a href="#" class="btn">add to cart</a>
-            </div>
-
-            <div class="box">
-                <a href="#" class="fas fa-heart"></a>
-                <a href="#" class="fas fa-eye"></a>
-                <img src="../images/product-6.jpg" alt="">
-                <h3>modern furniture</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <div class="price">$18.99 <span>$21.99</span></div>
-                <a href="#" class="btn">add to cart</a>
-            </div>
-
         </div>
 
     </section>
 
-    <!-- product -->
+    <!-- latest design -->
 
     
 
