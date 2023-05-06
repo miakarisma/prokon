@@ -255,7 +255,7 @@
                     <i class="fas fa-star-half-alt"></i>
                 </div>
                 <div class="price"><?= $data['price'];?> <span>$21.99</span></div>
-                <a href="#" class="btn">add to cart</a>
+                <a href="/login/isLogged_in" class="btn">add to cart</a>
             </div>
             <?php endforeach;?>
 
