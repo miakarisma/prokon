@@ -11,7 +11,10 @@ class Login extends BaseController
 
     public function index()
     {
-        return view('login');
+        if (session('id_user')) {
+            return view('login');
+        }
+        else 
     }
 
     public function process()
